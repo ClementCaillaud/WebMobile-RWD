@@ -1,6 +1,21 @@
-.fake-img
+#carte
 {
-  width: 20%;
-  height: 50px;
+  height: 500px;
+}
+
+.fake-img-1
+{
   background-color:rgb(201, 67, 37);
+}
+.fake-img-2
+{
+  background-color:rgb(26, 108, 138);
+}
+.fake-img-3
+{
+  background-color:rgb(52, 139, 53);
+}
+.fake-img-4
+{
+  background-color:rgb(23, 40, 149);
 }

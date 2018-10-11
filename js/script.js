@@ -13,6 +13,3 @@ function afficher_carte(div)
     attribution: ' <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(myMap);
 }
-
-
-}
