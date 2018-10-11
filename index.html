@@ -73,6 +73,12 @@
 
         <!-- FILTRES -->
         <div id="filtres" class="col-xl-2 col-md-3 d-none d-md-block">
+
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-light" onclick="affichage_classique()">Liste</button>
+            <button type="button" class="btn btn-light" onclick="carte_plein_ecran()">Carte</button>
+          </div>
+
           <div class="accordion" id="accordionInfoEssentielles">
             <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseInfoEssentielles" aria-expanded="true" aria-controls="collapseInfoEssentielles">
               Les informations essentielles
@@ -189,7 +195,7 @@
         </div>
 
         <!-- CARTE -->
-        <div id="carte" class="col-xl-4 d-lg-none d-xl-block"></div>
+        <div id="carte" class="col-xl-4 d-none d-xl-block"></div>
 
       </div>
     </div>
