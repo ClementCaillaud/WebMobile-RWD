@@ -44,7 +44,7 @@ TRES PETIT :
 
   Liste des résultats
 
-
+----------------------------------------
 
 Possibilité de switcher entre la liste et la carte, lorsque l'écran n'est pas trop petit. Si l'écran est trop petit, la liste réapparait automatiquement. Lorsque l'écran s'agrandit, la carte réapparait.
 
