@@ -1,6 +1,13 @@
 $(function()
 {
+  $('[data-toggle="popover"]').popover(
+    {
+      html: true,
+      container: 'body',
+      placement: 'bottom'
+    });
   afficher_carte('carte');
+  templates_filtres();
 })
 
 function afficher_carte(div)
@@ -26,4 +33,17 @@ function affichage_classique()
   $("#carte").removeClass("col-xl-10 col-md-9 d-md-block");
   $("#carte").addClass("col-xl-4");
   $("#resultats").removeClass("d-md-none");
+}
+
+function autres_filtres()
+{
+  var html = $("#autres-filtres").html();
+  $("#modal .modal-content").html(html);
+  $("#modal").modal("show");
+}
+
+function pas_autres_filtres()
+{
+  $("#modal .modal-content").html("Pas de filtre supplémentaire pour le moment ...");
+  $("#modal").modal("show");
 }
